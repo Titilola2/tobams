@@ -1,5 +1,6 @@
 import Foodieland from "../assets/foodie.svg";
 import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 interface HeaderProps {}
 
@@ -10,8 +11,12 @@ const Header: React.FC<HeaderProps> = () => {
         <img src={Foodieland}/>
     </div>
     <div className="font-inter  flex flex-row font-[500]">
-        <div className="px-4">Home</div>
-        <div className="px-4">Recipes</div>
+    <Link to="/" className="px-4">
+      Home
+    </Link>
+       <Link to="/recipes" className="px-4">
+      Recipes
+    </Link>
         <div className="px-4">Blog</div>
         <div className="px-4">Contact</div>
         <div className="px-4">About Us</div>

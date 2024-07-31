@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Home from './pages/home';
-import Japanese from './pages/japanese';
+import Recipe from './pages/recipe';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 
@@ -11,7 +11,7 @@ function App() {
     <Router>
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/Japanese" element={<Japanese />} />
+      <Route path="/recipes" element={<Recipe />} />
     </Routes>
   </Router>
   );

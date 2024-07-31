@@ -3,10 +3,10 @@ import Header from '../components/header';
 import Footer from '../components/footer';
 import Subscribe from '../components/subscribe';
 
-function Japanese() {
+function Recipe() {
   return (
     
-    <div className="Japanese">
+    <div className="Recipe">
       <header className="App-header">
       <Header />
       <Subscribe />
@@ -16,4 +16,4 @@ function Japanese() {
   );
 }
 
-export default Japanese;
+export default Recipe;
