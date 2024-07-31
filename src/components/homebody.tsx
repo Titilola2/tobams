@@ -14,7 +14,7 @@ interface HomebodyProps {}
 
 const Homebody: React.FC<HomebodyProps> = () => {
   return (
-    <div className="flex flex-col  mx-12 my-2   ">
+    <div className="flex flex-col  mx-12 my-4  ">
         <div className="flex flex-row ">
             <div className="w-1/2 bg-[#E7FAFE] rounded-l-3xl flex  flex-col  p-8">
             <div className=" flex flex-row">
