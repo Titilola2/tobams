@@ -6,11 +6,11 @@ interface HeaderProps {}
 
 const Header: React.FC<HeaderProps> = () => {
   return (
-    <header className="flex flex-row justify-between px-12 text-[#000000] py-6    ">
+    <header className="flex flex-row justify-between px-12 text-[#000000] py-8  border-b-[1px] border-opacity-[10%] w-full  ">
     <div className="">
         <img src={Foodieland}/>
     </div>
-    <div className="font-inter  flex flex-row font-[500]">
+    <div className="font-inter  flex flex-row font-[600] text-[16px] ">
     <Link to="/" className="px-4">
       Home
     </Link>

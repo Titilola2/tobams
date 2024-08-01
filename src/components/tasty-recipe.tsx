@@ -11,6 +11,8 @@ import tasty8 from "../assets/tasty8.png";
 import tasty9 from "../assets/tasty9.png";
 import time from "../assets/time.svg";
 import chicken from  "../assets/chicken.svg";
+import forkknife from  "../assets/forkknife.png";
+import timer from "../assets/timer.png";
 
 interface TastyProps {}
 
@@ -23,42 +25,132 @@ const Tasty: React.FC<TastyProps> = () => {
       <div className=" w-[400px] h-[434px] bg-gradient-to-b from-[#ffffff] to-[#E7F9FD] rounded-[30px] flex flex-col gap-y-2">
         <img className="h-3/5 w-full" src={tasty1} />
          <div className="font-[600] text-[1.5rem] font-inter mx-4">Big and Juicy Wagyu Beef Cheeseburger</div>
-         <div className=" flex flex-row gap-x-2 mb-12 mx-4 my-2">
-                <div className=""><img src={time} /></div>
-                <div className=""><img src={chicken} /></div>
+         <div className=" flex flex-row  mb-12 mx-4 my-2 ">
+                <div className="">
+                <div className="">
+                <div className="w-[10rem] h-[3rem] rounded-2xl  flex flex-row gap-4 p-[12px]" >
+                <img src={timer}/>
+                <div className=" flex flex-col ">
+                <div className="font-inter text-[14px] font-[500] opacity-[60%] ">30 Minutes</div>
+                </div>
+            </div>
+               
+            </div>
+                </div>
+                <div className="">
+                <div className="w-[10rem] h-[3rem] rounded-2xl  flex flex-row gap-4 p-[12px]" >
+                <img src={forkknife}/>
+                <div className=" flex flex-col ">
+                <div className="font-inter text-[14px] font-[500] opacity-[60%] ">Snack</div>
+                </div>
+            </div>
+               
+            </div>
             </div>
         </div>
         <div className=" w-[400px] h-[434px] bg-gradient-to-b from-[#ffffff] to-[#E7F9FD] rounded-[30px] flex flex-col gap-y-2 ">
            <img className="h-3/5 w-full" src={tasty2} />
            <div className="font-[600] text-[1.5rem] font-inter mx-4">Fresh Lime Roasted Salmon with Ginger Sauce</div>
-         <div className=" flex flex-row gap-x-2 mb-12 mx-4 my-2">
-                <div className=""><img src={time} /></div>
-                <div className=""><img src={chicken} /></div>
+           <div className=" flex flex-row  mb-12 mx-4 my-2">
+                <div className="">
+                <div className="">
+                <div className="w-[10rem] h-[3rem] rounded-2xl  flex flex-row gap-4 p-[12px]" >
+                <img src={timer}/>
+                <div className=" flex flex-col ">
+                <div className="font-inter text-[14px] font-[500] opacity-[60%] ">30 minutes</div>
+                </div>
+            </div>
+               
+            </div>
+                </div>
+                <div className="">
+                <div className="w-[10rem] h-[3rem] rounded-2xl  flex flex-row gap-4 p-[12px]" >
+                <img src={forkknife}/>
+                <div className=" flex flex-col ">
+                <div className="font-inter text-[14px] font-[500] opacity-[60%] ">Fish</div>
+                </div>
+            </div>
+               
+            </div>
             </div>
            
         </div>
         <div className=" w-[400px] h-[434px] bg-gradient-to-b from-[#ffffff] to-[#E7F9FD] rounded-[30px] flex flex-col gap-y-2 ">
            <img className="h-3/5 w-full" src={tasty3} />
            <div className="font-[600] text-[1.5rem] font-inter mx-4">Strawberry Oatmeal Pancake with Honey Syrup</div>
-         <div className=" flex flex-row gap-x-2 mb-12 mx-4 my-2">
-                <div className=""><img src={time} /></div>
-                <div className=""><img src={chicken} /></div>
+           <div className=" flex flex-row  mb-12 mx-4 my-2">
+                <div className="">
+                <div className="">
+                <div className="w-[10rem] h-[3rem] rounded-2xl  flex flex-row gap-4 p-[12px]" >
+                <img src={timer}/>
+                <div className=" flex flex-col ">
+                <div className="font-inter text-[14px] font-[500] opacity-[60%] ">30 Minutes</div>
+                </div>
+            </div>
+               
+            </div>
+                </div>
+                <div className="">
+                <div className="w-[10rem] h-[3rem] rounded-2xl  flex flex-row gap-4 p-[12px]" >
+                <img src={forkknife}/>
+                <div className=" flex flex-col ">
+                <div className="font-inter text-[14px] font-[500] opacity-[60%] ">Breakfast</div>
+                </div>
+            </div>
+               
+            </div>
             </div>
         </div>
         <div className=" w-[400px] h-[434px] bg-gradient-to-b from-[#ffffff] to-[#E7F9FD] rounded-[30px] flex flex-col gap-y-2 ">
            <img className="h-3/5 w-full" src={tasty4} />
            <div className="font-[600] text-[1.5rem] font-inter mx-4">Fresh and Healthy Mixed Mayonnaise Salad</div>
-         <div className=" flex flex-row gap-x-2 mb-12 mx-4 my-2">
-                <div className=""><img src={time} /></div>
-                <div className=""><img src={chicken} /></div>
+           <div className=" flex flex-row  mb-12 mx-4 my-2">
+                <div className="">
+                <div className="">
+                <div className="w-[10rem] h-[3rem] rounded-2xl  flex flex-row gap-4 p-[12px]" >
+                <img src={timer}/>
+                <div className=" flex flex-col ">
+                <div className="font-inter text-[14px] font-[500] opacity-[60%] ">30 Minutes</div>
+                </div>
+            </div>
+               
+            </div>
+                </div>
+                <div className="">
+                <div className="w-[10rem] h-[3rem] rounded-2xl  flex flex-row gap-4 p-[12px]" >
+                <img src={forkknife}/>
+                <div className=" flex flex-col ">
+                <div className="font-inter text-[14px] font-[500] opacity-[60%] ">Healthy</div>
+                </div>
+            </div>
+               
+            </div>
             </div>
         </div>
         <div className=" w-[400px] h-[434px] bg-gradient-to-b from-[#ffffff] to-[#E7F9FD] rounded-[30px] flex flex-col gap-y-2 ">
            <img className="h-3/5 w-full" src={tasty5} />
            <div className="font-[600] text-[1.5rem] font-inter mx-4">Chicken Meatballs with Cream Cheese</div>
-         <div className=" flex flex-row gap-x-2 mb-12 mx-4 my-2">
-                <div className=""><img src={time} /></div>
-                <div className=""><img src={chicken} /></div>
+           <div className=" flex flex-row  mb-12 mx-4 my-2">
+                <div className="">
+                <div className="">
+                <div className="w-[10rem] h-[3rem] rounded-2xl  flex flex-row gap-4 p-[12px]" >
+                <img src={timer}/>
+                <div className=" flex flex-col ">
+                <div className="font-inter text-[14px] font-[500] opacity-[60%] ">30 Minutes</div>
+                </div>
+            </div>
+               
+            </div>
+                </div>
+                <div className="">
+                <div className="w-[10rem] h-[3rem] rounded-2xl  flex flex-row gap-4 p-[12px]" >
+                <img src={forkknife}/>
+                <div className=" flex flex-col ">
+                <div className="font-inter text-[14px] font-[500] opacity-[60%] ">Meat</div>
+                </div>
+            </div>
+               
+            </div>
             </div>
         </div>
         <div className=" w-[400px] h-[434px] bg-gradient-to-b from-[#ffffff] to-[#E7F9FD] rounded-[30px] ">
@@ -67,25 +159,79 @@ const Tasty: React.FC<TastyProps> = () => {
         <div className=" w-[400px] h-[434px] bg-gradient-to-b from-[#ffffff] to-[#E7F9FD] rounded-[30px] flex flex-col gap-y-2 ">
            <img className="h-3/5 w-full" src={tasty7} />
            <div className="font-[600] text-[1.5rem] font-inter mx-4">Fruity Pancake with Orange & Blueberry</div>
-         <div className=" flex flex-row gap-x-2 mb-12 mx-4 my-2">
-                <div className=""><img src={time} /></div>
-                <div className=""><img src={chicken} /></div>
+           <div className=" flex flex-row  mb-12 mx-4 my-2">
+                <div className="">
+                <div className="">
+                <div className="w-[10rem] h-[3rem] rounded-2xl  flex flex-row gap-4 p-[12px]" >
+                <img src={timer}/>
+                <div className=" flex flex-col ">
+                <div className="font-inter text-[14px] font-[500] opacity-[60%] ">30 Minutes</div>
+                </div>
+            </div>
+               
+            </div>
+                </div>
+                <div className="">
+                <div className="w-[10rem] h-[3rem] rounded-2xl  flex flex-row gap-4 p-[12px]" >
+                <img src={forkknife}/>
+                <div className=" flex flex-col ">
+                <div className="font-inter text-[14px] font-[500] opacity-[60%] ">Sweet</div>
+                </div>
+            </div>
+               
+            </div>
             </div>
         </div>
         <div className=" w-[400px] h-[434px] bg-gradient-to-b from-[#ffffff] to-[#E7F9FD] rounded-[30px] flex flex-col gap-y-2 ">
            <img className="h-3/5 w-full" src={tasty8} />
            <div className="font-[600] text-[1.5rem] font-inter mx-4">The Best Easy One Pot Chicken and Rice</div>
-         <div className=" flex flex-row gap-x-2 mb-12 mx-4 my-2">
-                <div className=""><img src={time} /></div>
-                <div className=""><img src={chicken} /></div>
+           <div className=" flex flex-row  mb-12 mx-4 my-2">
+                <div className="">
+                <div className="">
+                <div className="w-[10rem] h-[3rem] rounded-2xl  flex flex-row gap-4 p-[12px]" >
+                <img src={timer}/>
+                <div className=" flex flex-col ">
+                <div className="font-inter text-[14px] font-[500] opacity-[60%] ">30 Minutes</div>
+                </div>
+            </div>
+               
+            </div>
+                </div>
+                <div className="">
+                <div className="w-[10rem] h-[3rem] rounded-2xl  flex flex-row gap-4 p-[12px]" >
+                <img src={forkknife}/>
+                <div className=" flex flex-col ">
+                <div className="font-inter text-[14px] font-[500] opacity-[60%] ">Snack</div>
+                </div>
+            </div>
+               
+            </div>
             </div>
         </div>
         <div className=" w-[400px] h-[434px] bg-gradient-to-b from-[#ffffff] to-[#E7F9FD] rounded-[30px] flex flex-col gap-y-2 ">
            <img className="h-3/5 w-full" src={tasty9} />
            <div className="font-[600] text-[1.5rem] font-inter mx-4">The Creamiest Creamy Chicken and Bacon Pasta</div>
-         <div className=" flex flex-row gap-x-2 mb-12 mx-4 my-2">
-                <div className=""><img src={time} /></div>
-                <div className=""><img src={chicken} /></div>
+           <div className=" flex flex-row  mb-12 mx-4 my-2">
+                <div className="">
+                <div className="">
+                <div className="w-[10rem] h-[3rem] rounded-2xl  flex flex-row gap-4 p-[12px]" >
+                <img src={timer}/>
+                <div className=" flex flex-col ">
+                <div className="font-inter text-[14px] font-[500] opacity-[60%] ">30 Minutes</div>
+                </div>
+            </div>
+               
+            </div>
+                </div>
+                <div className="">
+                <div className="w-[10rem] h-[3rem] rounded-2xl  flex flex-row gap-4 p-[12px]" >
+                <img src={forkknife}/>
+                <div className=" flex flex-col ">
+                <div className="font-inter text-[14px] font-[500] opacity-[60%] ">Noodle</div>
+                </div>
+            </div>
+               
+            </div>
             </div>
         </div>
       </div>
