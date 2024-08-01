@@ -17,8 +17,8 @@ interface TastyProps {}
 const Tasty: React.FC<TastyProps> = () => {
   return (
     <div className="flex flex-col  mx-12 my-2 gap-4  ">
-      <div className="text-center text-[3rem] font-[600]">Simple and tasty recipes</div>
-      <div className="text-center text-[1rem] font-[400] w-1/2 flex justify-center items-center opacity-[60%]">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim </div>
+      <div className="lg:text-center text-left lg:text-[3rem] text-[2.5rem] font-[600]">Simple and tasty recipes</div>
+      <div className="text-center text-[1rem] font-[400] w-1/2 lg:mx-96 md:mx-56 my-2 flex justify-center items-center opacity-[60%]">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim </div>
       <div className="flex flex-wrap gap-12">
       <div className=" w-[400px] h-[434px] bg-gradient-to-b from-[#ffffff] to-[#E7F9FD] rounded-[30px] flex flex-col gap-y-2">
         <img className="h-3/5 w-full" src={tasty1} />

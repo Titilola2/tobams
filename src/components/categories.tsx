@@ -18,7 +18,7 @@ const Categories: React.FC<CategoriesProps> = () => {
                 <div className="font-inter text-[1rem] font-[600] text-black text-center">View All Categories</div>
                 </div>
         </div>
-        <div className="flex flex-row justify-between mt-8 text-[18px] font-[600] text center mt-8">
+        <div className="flex flex-wrap w-full justify-between  text-[18px] font-[600] text center mt-8 gap-y-12">
             <div className="w-[180px] h-[152px] flex flex-col px-12 rounded-[30px] bg-gradient-to-b from-[#ffffff] to-[#708246]/10"> 
             <img className="w-[100px] h-[100px] -mt-12" src={cat1} />
             <div className="mt-4"></div> Breakfast</div>

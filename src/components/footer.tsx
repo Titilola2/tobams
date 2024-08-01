@@ -9,9 +9,9 @@ const Footer: React.FC<FooterProps> = () => {
       <div className="flex flex-row border-b border-1 border-black/10 justify-between py-4">
         <div className="flex flex-col">
           <img className='h-[16px] w-full -ml-32' src={Foodieland} />
-          <div className="font-inter font-[400] text-[#000000] opacity-[60%]">Lorem ipsum dolor sit amet, consectetuipisicing elit,</div>
+          <div className="font-inter font-[400] text-[#000000] opacity-[60%] text-wrap">Lorem ipsum dolor sit amet, consectetuipisicing elit,</div>
         </div>
-        <div className="font-inter flex flex-row font-[500]">
+        <div className="font-inter flex flex-wrap font-[500]">
           <div className="px-4">Recipes</div>
           <div className="px-4">Blog</div>
           <div className="px-4">Contact</div>
