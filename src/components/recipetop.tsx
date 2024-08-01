@@ -35,7 +35,7 @@ const Recipetop: React.FC<RecipetopProps> = () => {
     
 
     {/* Japanese recipes*/}
-    <div className="flex flex-col gap-y-12 w-ful">
+    <div className="flex flex-col gap-y-12 w-ful mt-12">
     <div className="flex flex-row w-full justify-between ">
       <div className="w-3/5  flex- flex-col gap-y-4">
       <div className="font-inter font-[600] text-[3rem]">Health Japanese Fried Rice</div>
