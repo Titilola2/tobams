@@ -11,7 +11,7 @@ interface CategoriesProps {}
 
 const Categories: React.FC<CategoriesProps> = () => {
   return (
-    <div className="flex flex-col  mx-12 my-24   ">
+    <div className="flex flex-col  mx-12 my-24 gap-y-8  ">
         <div className=" flex flex-row justify-between mb-12">
         <div className=" text-[3rem] font-[600]">Categories</div>
         <div className="w-[13rem] h-[3rem] rounded-[16px]  flex flex-row bg-[#E7FAFE] justify-between py-[12px] px-[20px]" >

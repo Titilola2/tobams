@@ -129,7 +129,7 @@ const Recipetop: React.FC<RecipetopProps> = () => {
           <div className="font-[500] text-[18px] opacity-[60%]"> Cholesterol</div>
           <div className="font-[500] text-[18px]">34.7g</div>
         </div>
-        <div className=" font-inter font-[500] text-[18px] opacity-[60%] text-center mt-36">adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
+        <div className=" font-inter font-[500] text-[18px] opacity-[60%] text-center mt-44">adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
        </div>
 
       </div>
@@ -261,7 +261,7 @@ const Recipetop: React.FC<RecipetopProps> = () => {
   </div>
 
 
-  <div className="  flex flex-col right w-[30%] gap-y-4">
+  <div className="  flex flex-col right w-[30%] gap-y-8">
   <div className="font-inter font-[600] text-[2rem] ">Other Recipe</div>
   <div className="flex flex-col mb-8 gap-4">
     <div className="flex flex-row  ">
