@@ -143,7 +143,7 @@ const Recipetop: React.FC<RecipetopProps> = () => {
 
       {/* Ingredients recipes*/}
 <div className="flex flew-wrap w-full justify-between">
-  <div className="  flex flex-col left w-3/5">
+  <div className="  flex flex-col left w-3/5 mt-2">
   <div className="font-inter font-[600] text-[2.25rem]">Ingredients</div>
   <div className="text-[1.5rem] mt-4 font-[600]">For main dish</div>
   <div className="flex flex-col">   
@@ -300,7 +300,7 @@ const Recipetop: React.FC<RecipetopProps> = () => {
 
 
         {/* Directions recipes*/}
-        <div className="flex flex-col w-3/5">
+        <div className="flex flex-col w-3/5 mb-16">
         <div className="font-inter font-[600] text-[2.25rem]">Directions</div>
         <ul className="list-none">
       <li className="text-[1.5rem] my-8 border-b border-black border-opacity-10 flex flex-col font-[600]">1. Lorem ipsum dolor sit amet 

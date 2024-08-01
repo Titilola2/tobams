@@ -10,7 +10,7 @@ interface RecipebodyProps {}
 
 const Recipebody: React.FC<RecipebodyProps> = () => {
   return (
-    <div className="flex flex-col  mx-12 my-4 gap-y-8 ">
+    <div className="flex flex-col  mx-12 mb-8 mt-20 gap-y-8 ">
     
 
     {/* delicious recipes*/}
