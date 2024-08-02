@@ -19,7 +19,7 @@ const Delicious: React.FC<DeliciousProps> = () => {
   return (
     <div className="flex flex-col  mx-16 my-24   ">
       <div className="flex flex-wrap gap-4 font-inter justify-between w-full my-8">
-      <div className="w-2/5 font-[600] lg:text-[2.5rem] md:text-[2rem] text-[1rem]">Try this delicious recipe   to make your day</div>
+      <div className="w-2/5 font-[600] lg:text-[2.3rem] md:text-[2rem] text-[1rem]">Try this delicious recipe   to make your day</div>
       <div className="w-1/2 font-[400] md:text-[1rem] text-[0.5rem] opacity-[60%]">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim </div>
       </div>
       <div className="flex flex-wrap  justify-between w-full items-center  gap-y-8 my-12 ">
