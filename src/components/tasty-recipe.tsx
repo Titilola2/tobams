@@ -19,10 +19,10 @@ interface TastyProps {}
 const Tasty: React.FC<TastyProps> = () => {
   return (
     <div className="flex flex-col  mx-12 my-8 gap-4  ">
-      <div className="lg:text-center text-left lg:text-[3rem] text-[2.5rem] font-[700]">Simple and tasty recipes</div>
+      <div className="lg:text-center text-center lg:text-[3rem] text-[2.5rem] ml-8 font-[700]">Simple and tasty recipes</div>
       <div className="text-center text-[1rem] font-[400] w-1/2 lg:mx-96 md:mx-56 my-2 flex justify-center items-center opacity-[60%]">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim </div>
-      <div className="flex flex-wrap gap-12">
-      <div className=" w-[400px] h-[434px] bg-gradient-to-b from-[#ffffff] to-[#E7F9FD] rounded-[30px] flex flex-col gap-y-2">
+      <div className="flex flex-wrap gap-x-4 gap-y-8 w-full justify-center items-center">
+      <div className=" w-[25rem] h-[434px] bg-gradient-to-b from-[#ffffff] to-[#E7F9FD] rounded-[30px] flex flex-col gap-y-2">
         <img className="h-3/5 w-full" src={tasty1} />
          <div className="font-[600] text-[1.5rem] font-inter mx-4">Big and Juicy Wagyu Beef Cheeseburger</div>
          <div className=" flex flex-row  mb-12 mx-4 my-2 ">
@@ -48,7 +48,7 @@ const Tasty: React.FC<TastyProps> = () => {
             </div>
             </div>
         </div>
-        <div className=" w-[400px] h-[434px] bg-gradient-to-b from-[#ffffff] to-[#E7F9FD] rounded-[30px] flex flex-col gap-y-2 ">
+        <div className=" w-[25rem] h-[434px] bg-gradient-to-b from-[#ffffff] to-[#E7F9FD] rounded-[30px] flex flex-col gap-y-2 ">
            <img className="h-3/5 w-full" src={tasty2} />
            <div className="font-[600] text-[1.5rem] font-inter mx-4">Fresh Lime Roasted Salmon with Ginger Sauce</div>
            <div className=" flex flex-row  mb-12 mx-4 my-2">
@@ -75,7 +75,7 @@ const Tasty: React.FC<TastyProps> = () => {
             </div>
            
         </div>
-        <div className=" w-[400px] h-[434px] bg-gradient-to-b from-[#ffffff] to-[#E7F9FD] rounded-[30px] flex flex-col gap-y-2 ">
+        <div className=" w-[25rem] h-[434px] bg-gradient-to-b from-[#ffffff] to-[#E7F9FD] rounded-[30px] flex flex-col gap-y-2 ">
            <img className="h-3/5 w-full" src={tasty3} />
            <div className="font-[600] text-[1.5rem] font-inter mx-4">Strawberry Oatmeal Pancake with Honey Syrup</div>
            <div className=" flex flex-row  mb-12 mx-4 my-2">
@@ -101,7 +101,7 @@ const Tasty: React.FC<TastyProps> = () => {
             </div>
             </div>
         </div>
-        <div className=" w-[400px] h-[434px] bg-gradient-to-b from-[#ffffff] to-[#E7F9FD] rounded-[30px] flex flex-col gap-y-2 ">
+        <div className=" w-[25rem] h-[434px] bg-gradient-to-b from-[#ffffff] to-[#E7F9FD] rounded-[30px] flex flex-col gap-y-2 ">
            <img className="h-3/5 w-full" src={tasty4} />
            <div className="font-[600] text-[1.5rem] font-inter mx-4">Fresh and Healthy Mixed Mayonnaise Salad</div>
            <div className=" flex flex-row  mb-12 mx-4 my-2">
@@ -127,7 +127,7 @@ const Tasty: React.FC<TastyProps> = () => {
             </div>
             </div>
         </div>
-        <div className=" w-[400px] h-[434px] bg-gradient-to-b from-[#ffffff] to-[#E7F9FD] rounded-[30px] flex flex-col gap-y-2 ">
+        <div className=" w-[25rem] h-[434px] bg-gradient-to-b from-[#ffffff] to-[#E7F9FD] rounded-[30px] flex flex-col gap-y-2 ">
            <img className="h-3/5 w-full" src={tasty5} />
            <div className="font-[600] text-[1.5rem] font-inter mx-4">Chicken Meatballs with Cream Cheese</div>
            <div className=" flex flex-row  mb-12 mx-4 my-2">
@@ -153,10 +153,10 @@ const Tasty: React.FC<TastyProps> = () => {
             </div>
             </div>
         </div>
-        <div className=" w-[400px] h-[434px] bg-gradient-to-b from-[#ffffff] to-[#E7F9FD] rounded-[30px] ">
+        <div className=" w-[25rem] h-[434px] bg-gradient-to-b from-[#ffffff] to-[#E7F9FD] rounded-[30px] ">
            <img src={tasty6}  className="h-full w-full"/>
         </div>
-        <div className=" w-[400px] h-[434px] bg-gradient-to-b from-[#ffffff] to-[#E7F9FD] rounded-[30px] flex flex-col gap-y-2 ">
+        <div className=" w-[25rem] h-[434px] bg-gradient-to-b from-[#ffffff] to-[#E7F9FD] rounded-[30px] flex flex-col gap-y-2 ">
            <img className="h-3/5 w-full" src={tasty7} />
            <div className="font-[600] text-[1.5rem] font-inter mx-4">Fruity Pancake with Orange & Blueberry</div>
            <div className=" flex flex-row  mb-12 mx-4 my-2">
@@ -182,7 +182,7 @@ const Tasty: React.FC<TastyProps> = () => {
             </div>
             </div>
         </div>
-        <div className=" w-[400px] h-[434px] bg-gradient-to-b from-[#ffffff] to-[#E7F9FD] rounded-[30px] flex flex-col gap-y-2 ">
+        <div className=" w-[25rem] h-[434px] bg-gradient-to-b from-[#ffffff] to-[#E7F9FD] rounded-[30px] flex flex-col gap-y-2 ">
            <img className="h-3/5 w-full" src={tasty8} />
            <div className="font-[600] text-[1.5rem] font-inter mx-4">The Best Easy One Pot Chicken and Rice</div>
            <div className=" flex flex-row  mb-12 mx-4 my-2">
@@ -208,7 +208,7 @@ const Tasty: React.FC<TastyProps> = () => {
             </div>
             </div>
         </div>
-        <div className=" w-[400px] h-[434px] bg-gradient-to-b from-[#ffffff] to-[#E7F9FD] rounded-[30px] flex flex-col gap-y-2 ">
+        <div className=" w-[25rem] h-[434px] bg-gradient-to-b from-[#ffffff] to-[#E7F9FD] rounded-[30px] flex flex-col gap-y-2 ">
            <img className="h-3/5 w-full" src={tasty9} />
            <div className="font-[600] text-[1.5rem] font-inter mx-4">The Creamiest Creamy Chicken and Bacon Pasta</div>
            <div className=" flex flex-row  mb-12 mx-4 my-2">
