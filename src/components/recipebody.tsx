@@ -18,8 +18,8 @@ const Recipebody: React.FC<RecipebodyProps> = () => {
        <div className="font-inter text-center font-[600] text-[2.25rem]">You may like these recipe too
         </div>  
         <div className="">
-        <div className="flex flex-wrap gap-x-12 ">
-      <div className=" w-[290px] h-[291.2px] bg-[#ffffff] rounded-[30px] flex flex-col gap-y-2">
+        <div className="flex flex-wrap justify-between w-full ">
+      <div className=" w-[17rem] h-[291.2px] bg-[#ffffff] rounded-[30px] flex flex-col gap-y-2">
         <img className="h-3/5 w-full" src={del1} />
          <div className="font-[700] text-[18px] font-inter mx-4 mt-4">Mixed Tropical Fruit Salad with Superfood Boosts </div>
          <div className=" flex flex-row gap-x-2 mb-12 mx-4 ">
@@ -27,7 +27,7 @@ const Recipebody: React.FC<RecipebodyProps> = () => {
                 <div className=""><img src={chicken2} /></div>
             </div>
         </div>
-        <div className=" w-[290px] h-[291.2px] bg-[#ffffff] rounded-[30px] flex flex-col gap-y-2">
+        <div className=" w-[17rem] h-[291.2px] bg-[#ffffff] rounded-[30px] flex flex-col gap-y-2">
         <img className="h-3/5 w-full" src={del2} />
          <div className="font-[600] text-[18px] font-inter mx-4">Big and Juicy Wagyu Beef Cheeseburger</div>
          <div className=" flex flex-row gap-x-2 mb-12 mx-4 ">
@@ -35,7 +35,7 @@ const Recipebody: React.FC<RecipebodyProps> = () => {
                 <div className=""><img src={chicken2} /></div>
             </div>
         </div>
-        <div className=" w-[290px] h-[291.2px] bg-[#ffffff] rounded-[30px] flex flex-col gap-y-2">
+        <div className=" w-[17rem] h-[291.2px] bg-[#ffffff] rounded-[30px] flex flex-col gap-y-2">
         <img className="h-3/5 w-full" src={del3} />
          <div className="font-[600] text-[18px] font-inter mx-4">Healthy Japanese Fried Rice with Asparagus</div>
          <div className=" flex flex-row gap-x-2 mb-12 mx-4 ">
@@ -43,7 +43,7 @@ const Recipebody: React.FC<RecipebodyProps> = () => {
                 <div className=""><img src={chicken2} /></div>
             </div>
         </div>
-        <div className=" w-[290px] h-[291.2px] bg-[#ffffff] rounded-[30px] flex flex-col gap-y-2">
+        <div className=" w-[17rem] h-[291.2px] bg-[#ffffff] rounded-[30px] flex flex-col gap-y-2">
         <img className="h-3/5 w-full" src={del4} />
          <div className="font-[600] text-[18px] font-inter mx-4">Cauliflower Walnut Vegetarian Taco Meat</div>
          <div className=" flex flex-row gap-x-2 mb-12 mx-4 ">

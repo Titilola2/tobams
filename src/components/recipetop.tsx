@@ -27,8 +27,10 @@ const Recipetop: React.FC<RecipetopProps> = () => {
 
   const [isChecked, setIsChecked] = useState(false);
 
+
   const handleChange = () => {
     setIsChecked(!isChecked);
+  
   };
   return (
     <div className="flex flex-col  mx-12 my-4 gap-y-8 ">
@@ -88,9 +90,9 @@ const Recipetop: React.FC<RecipetopProps> = () => {
             </div>
     </div>
       </div>
-      <div className="bg-background2 w-[840px] h-[600px] flex justify-center items-center">
+      <div className="bg-background2  h-[600px] flex justify-center items-center">
   <img src={ellipse} alt="Ellipse" className="max-h-full max-w-full" />
-  <img src={polygon} className="w-[32px] h-[32px] top-[573px]  absolute"/>
+  <img src={polygon} className="w-[32px] h-[32px] top-[38rem]  absolute"/>
 </div>
 
       </div>
@@ -157,7 +159,7 @@ const Recipetop: React.FC<RecipetopProps> = () => {
         className="appearance-none rounded-full w-6 h-6 border-2 border-gray-300 checked:bg-black checked:border-transparent "
       />
       {/* Optional label */}
-      <label className={`ml-4  text-[1rem]  font-[400] ${isChecked ? 'line-through  opacity-60' : ''}`}>Lorem ipsum dolor sit amet</label>
+      <label className={`ml-4  text-[1rem]  font-[400] ${isChecked? 'line-through  opacity-60' : ''}`}>Lorem ipsum dolor sit amet</label>
       </div>
       </div>
       
@@ -261,30 +263,30 @@ const Recipetop: React.FC<RecipetopProps> = () => {
   </div>
 
 
-  <div className="  flex flex-col right w-[30%] gap-y-8">
+  <div className="  flex flex-col right w-[33%] gap-y-8">
   <div className="font-inter font-[600] text-[2rem] ">Other Recipe</div>
   <div className="flex flex-col mb-8 gap-4">
-    <div className="flex flex-row  ">
+    <div className="flex flex-row justify-between w-full  ">
       <div className="w-full">
-      <img className="h-[120px] w-[180px]" src={tasty5}/>
+      <img className="h-[120px] w-[10.5rem]" src={tasty5}/>
       </div>
       <div className="py-2 flex flex-col gap-2 -ml-12">
         <div className="font-inter text-[17px] font-[600]">Chicken Meatball with Creamy Chees...</div>
         <div className="opacity-[60%] font-[500] text-[14px]">By Andreas Paula</div>
       </div>
     </div>
-    <div className="flex flex-row  ">
+    <div className="flex flex-row justify-between w-full j  ">
       <div className="w-full">
-      <img className="h-[120px] w-[180px]" src={tasty9}/>
+      <img className="h-[120px] w-[10.5rem]" src={tasty9}/>
       </div>
       <div className="py-2 flex flex-col gap-2 -ml-12">
         <div className="font-inter text-[17px] font-[600]">The Creamiest Creamy Chicken an....</div>
         <div className="opacity-[60%] font-[500] text-[14px]">By Andreas Paula</div>
       </div>
     </div>
-    <div className="flex flex-row  ">
+    <div className="flex flex-row justify-between w-full  ">
       <div className="w-full">
-      <img className="h-[120px] w-[180px]" src={tasty8}/>
+      <img className="h-[120px] w-[10.5rem]" src={tasty8}/>
       </div>
       <div className="py-2 flex flex-col gap-2 -ml-12">
         <div className="font-inter text-[17px] font-[600]">The Best Easy One Pot Chicken and Rice</div>
